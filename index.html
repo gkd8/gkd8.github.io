@@ -27,7 +27,15 @@
                 <p>新の开始<img src="./img/fish.png" alt="咸鱼" style="width: 20px; vertical-align: middle;"></p>
                 <p>小时候词不达意</p>
                 <p>长大了言不由衷<img src="./img/002.png" alt="冰激凌" style="width: 15px; vertical-align: middle;"></p>
-                <span style="color: blue;">精彩内容就在~往下拉</span>
+               <div id="blink">精彩内容就在~往下拉</div>
+    <script language="javascript">
+        function changeColor(){
+            var color="#f00|#0f0|#00f|#880|#808|#088|yellow|green|blue|gray";
+            color=color.split("|");
+            document.getElementById("blink").style.color=color[parseInt(Math.random() * color.length)];
+        }
+        setInterval("changeColor()",200);
+    </script>
             </div>
             <!-- 两个按钮 -->
             <div class="meBox-Button">
@@ -63,6 +71,8 @@
                     <span style="color: rgb(39, 39, 39);">破解各大直播收费房间，精品看片</span>
                     <span style="color: #000000;">
                     <p>微群社区必填邀请码 4166776 <a href="https://vqun.6evd.com">地址1</a>&nbsp;&nbsp;<a href="https://app.vqun.vip">地址2</a>&nbsp;&nbsp;<a href="https://app.vqun.live">地址3</a></p>
+                    <br>
+                    <p>神话LIVE必填邀请码 161616 <a href="https://shzb.live/">地址1</a>&nbsp;&nbsp;<a href="https://shxz1.com/">地址2</a></p>
                     <br>
                     <p>彩LIVE必填邀请码 161616 <a href="http://cai666.live">地址1</a>&nbsp;&nbsp;<a href="http://cai666.vip">地址2</a>&nbsp;&nbsp;<a href="http://cai666.tv">地址3</a></p>
                     <p>偶尔直播间打不开等问题官方会尽快修复，请放心使用~</P>
